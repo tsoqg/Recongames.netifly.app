@@ -1,0 +1,16 @@
+.nav {
+background-color: black;
+width: 100vw;
+height: 45px;
+position: absolute;
+top: 0;
+right: auto;
+}
+.nav-item {
+display: inline-block;
+height: 45px;
+padding-left: 20px;}
+.nav-item a {
+    text-decoration: none;
+    color: white;
+}
