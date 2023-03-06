@@ -10,11 +10,10 @@
     border-radius: 4px;
     /*backdrop-filter: blur(10px);*/
     background-position: right 0px top 0px;
-  
+    transition: 0.2s;
     background-repeat: no-repeat;
-    animation: gamecardanim 2s;
-    transition: width 0.3s, height .3s, transform;
     z-index: 1;
+    
   }
   
   .card:hover {
@@ -24,9 +23,11 @@
     background-color: rgba(0, 0, 0, 0.607);
     background-position: left 10px top 10px;
   background-size: 32%;
-  animation: gamecardanim 2s;
-  width: 320px;
   z-index: 999999;
-  transition: width 0.5s, height .3s, transform;
+
   
   }
+  #buttonDiv21 {
+    width: 100vw;
+height: auto;
+display: flex;  }
